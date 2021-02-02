@@ -1,0 +1,44 @@
+/* 
+Theme Name: ThemeSimple 
+Author: Bruno MAYEUX 
+Description: Theme simple pour Wordpress 
+*/
+
+div,body, footer
+{
+    display:flex;
+    flex:1;
+    /*border : 1px dotted blue;*/
+}
+
+.logo
+{
+    flex:0.5;
+}
+
+.colonne
+{
+    flex-direction:column;
+}
+
+.centre
+{
+    justify-content:center;
+}
+
+footer{   
+   
+    color: #fff;
+    padding:1em;
+}
+
+@media (min-width: 768px)
+{
+.col-sm-offset-1 {
+    margin-left: 30%;
+}
+.col-sm-8 {
+    flex:4;
+}
+
+}
