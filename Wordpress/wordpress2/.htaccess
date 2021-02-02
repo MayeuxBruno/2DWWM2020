@@ -6,11 +6,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /Wordpress/wordpress/
+RewriteBase /Wordpress/wordpress2/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /Wordpress/wordpress/index.php [L]
+RewriteRule . /Wordpress/wordpress2/index.php [L]
 </IfModule>
 
 # END WordPress

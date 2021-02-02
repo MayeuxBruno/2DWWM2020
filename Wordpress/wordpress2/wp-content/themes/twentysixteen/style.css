@@ -300,25 +300,9 @@ optgroup {
 /**
  * 3.0 - Typography
  */
- /*@font-face {
-	font-family: 'pt-banana-split';
-	src: url('pt-banana-split.woff2') format('woff2'),
-		 url('pt-banana-split.woff') format('woff'),
-		 url('pt-banana-split.ttf')  format('truetype');
-  }*/
-
-  @font-face {
-	font-family: ‘pt-banana-split‘;
-	src: url(‘pt-banana-split.eot’);
-	src: url(‘pt-banana-split.eot?#iefix’) format(’embedded-opentype’),
-	url(‘pt-banana-split.woff2′) format(‘woff2’),
-	url(‘pt-banana-split.woff’) format(‘woff’),
-	url(‘pt-banana-split.ttf’) format(‘truetype’),
-	url(‘pt-banana-split.svg#svgwpf‘) format(‘svg’);
-	}
+ 
   
  h1, h2, h3, h4, h5, h6 {
-	font-family: ‘pt-banana-split’, Arial, sans-serif !important;
 	color:blue;
 	}
 
