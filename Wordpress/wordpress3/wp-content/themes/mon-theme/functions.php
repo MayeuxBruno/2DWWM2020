@@ -1,16 +1,13 @@
-<?php //register_nav_menus( array('menu-principal' => 'Menu principal') ); 
-//ajouter une nouvelle zone de menu à mon thème
-// s'il y a plusieurs menus à rajouter, voici le code :
-function register_my_menus() {
-    register_nav_menus(
-    array(
-    'private-menu' => __( 'Menu Privé' ),
-    'footer-menu' => __( 'Menu Footer' ),
-    )
-    );
-   }
-   add_action( 'init', 'register_my_menus' );
+<?php 
    
+// Menu de navigation spécial
+register_nav_menus(array(
+    'spécial' => __('Menu spécial','mon-theme')
+));
+
+
+
+
 add_theme_support('custom-logo'); //Gestion de l'affichage du logo
 
 //Gestion des images mises en avant

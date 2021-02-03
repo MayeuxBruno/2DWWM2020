@@ -24,6 +24,7 @@
             <nav id="navigation-principale" role="navigation">
                 <?php wp_nav_menu( array( 'theme_location' => 'menu-principal' ) ); ?>
         </div>
+        
     </div>
     <div class="container colonne">
         <div class="blog-header colonne">
